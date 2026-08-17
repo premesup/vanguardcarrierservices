@@ -172,8 +172,8 @@
   <div class="wrap">
     <div class="stat" data-reveal><b>24/7</b><span>Every hour, every day</span></div>
     <div class="stat" data-reveal><b>6</b><span>Departments under one roof</span></div>
-    <div class="stat" data-reveal><b>&lt;90 sec</b><span>Average call pickup</span></div>
-    <div class="stat" data-reveal><b>350+</b><span>Carriers on the board</span></div>
+    <div class="stat" data-reveal><b>&lt;20 sec</b><span>Average call pickup</span></div>
+    <div class="stat" data-reveal><b>34+</b><span>Carriers on the board</span></div>
   </div>
 </div>
 
@@ -373,20 +373,65 @@
 
 <section class="testi">
   <div class="wrap" data-reveal>
-    <blockquote>Vanguard picked up a breakdown call at 3 a.m. on a Sunday and had my truck back on the road before my alarm went off.</blockquote>
-    <cite><b>Owner-operator</b> — 4-truck reefer fleet, example customer</cite>
+    <blockquote>They are so professional and timely, I love that I get periodic updates without having to ask and I always know what is happening with my load.</blockquote>
+    <cite><b>Arrive Logistics</b></cite>
   </div>
 </section>
 
-<section class="cta-band" id="contact">
-  <div class="wrap" data-reveal>
-    <h2>Get your trucks on the board.</h2>
-    <p>Call now or leave your fleet details — a dispatcher calls you back within the hour, day or night.</p>
-    <a href="tel:+13479894737" class="cta-phone">347.989.4737</a>
-    <div class="cta-actions">
-      <a href="tel:+13479894737" class="btn btn-amber">Call Dispatch</a>
-      <a href="mailto:info@vanguardcarrierservices.com" class="btn btn-ghost">Email the Fleet Desk</a>
+<section class="lead-section" id="contact">
+  <div class="wrap">
+    <div class="lead-copy" data-reveal>
+      <h2>Get your trucks on the board.</h2>
+      <p>Call now, or send your fleet details below — a dispatcher calls you back within the hour, day or night.</p>
+      <a href="tel:+13479894737" class="cta-phone">347.989.4737</a>
+      <div class="cta-actions">
+        <a href="tel:+13479894737" class="btn btn-amber">Call Dispatch</a>
+        <a href="mailto:info@vanguardcarrierservices.com" class="btn btn-ghost">Email the Fleet Desk</a>
+      </div>
     </div>
+
+    <form class="lead-form" data-reveal name="fleet-review" method="POST" data-netlify="true" netlify-honeypot="company-website" id="fleetReviewForm">
+      <input type="hidden" name="form-name" value="fleet-review">
+      <p class="form-hp"><label>Don't fill this out if you're human: <input name="company-website" /></label></p>
+
+      <h3>Request a free fleet review</h3>
+      <p class="form-note">Tell us about your fleet — we'll follow up within one business day.</p>
+
+      <div class="form-grid-2">
+        <div class="form-row">
+          <label for="lf-name">Full name</label>
+          <input id="lf-name" type="text" name="name" required autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="lf-company">Company</label>
+          <input id="lf-company" type="text" name="company" autocomplete="organization">
+        </div>
+      </div>
+
+      <div class="form-grid-2">
+        <div class="form-row">
+          <label for="lf-phone">Phone</label>
+          <input id="lf-phone" type="tel" name="phone" required autocomplete="tel">
+        </div>
+        <div class="form-row">
+          <label for="lf-email">Email</label>
+          <input id="lf-email" type="email" name="email" required autocomplete="email">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="lf-trucks">Number of trucks</label>
+        <input id="lf-trucks" type="text" name="fleet_size" placeholder="e.g. 4">
+      </div>
+
+      <div class="form-row">
+        <label for="lf-message">What do you need help with?</label>
+        <textarea id="lf-message" name="message" placeholder="Dispatch, breakdown support, safety, recruiting, scheduling, compliance — or just tell us what's going on."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-amber form-submit">Send Fleet Details</button>
+      <p class="form-status" id="formStatus">Thanks — a dispatcher will be in touch within one business day.</p>
+    </form>
   </div>
 </section>
 

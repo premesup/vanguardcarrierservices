@@ -79,3 +79,26 @@ function vgFmtTime(offsetMin){
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
 })();
+
+// Netlify lead form — AJAX submit so the page doesn't reload
+(function leadForm(){
+  const form = document.getElementById('fleetReviewForm');
+  const status = document.getElementById('formStatus');
+  if(!form) return;
+  form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const formData = new FormData(form);
+    fetch('/', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+      body: new URLSearchParams(formData).toString(),
+    })
+    .then(()=>{
+      form.reset();
+      if(status){ status.classList.add('show'); status.textContent = "Thanks — a dispatcher will be in touch within one business day."; status.style.color = 'var(--green)'; }
+    })
+    .catch(()=>{
+      if(status){ status.classList.add('show'); status.textContent = "Something went wrong sending that — please call or email us directly."; status.style.color = 'var(--red)'; }
+    });
+  });
+})();
