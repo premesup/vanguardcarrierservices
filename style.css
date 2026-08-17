@@ -1,7 +1,7 @@
 :root{
-  --ink:#14181C;
-  --ink-2:#1B2126;
-  --ink-3:#242B32;
+  --ink:#20262E;
+  --ink-2:#2A323C;
+  --ink-3:#353F4A;
   --line: rgba(243,234,218,0.11);
   --cream:#F3EADA;
   --cream-dim:#B7AD9B;
@@ -58,7 +58,7 @@ section{ position:relative; }
 .skip-link:focus{ left:16px; top:16px; }
 
 /* ---------- TOP BAR ---------- */
-.topbar{ border-bottom:1px solid var(--line); background:rgba(20,24,28,0.94); backdrop-filter:blur(6px); position:sticky; top:0; z-index:50; }
+.topbar{ border-bottom:1px solid var(--line); background:rgba(32,38,46,0.94); backdrop-filter:blur(6px); position:sticky; top:0; z-index:50; }
 .topbar .wrap{ display:flex; align-items:center; justify-content:space-between; height:76px; }
 .logo{ display:flex; align-items:center; gap:10px; text-decoration:none; }
 .logo-mark{ width:30px; height:30px; flex:none; }
