@@ -24,7 +24,7 @@ body{
 h1,h2,h3,.disp{
   font-family:'Anton',sans-serif;
   text-transform:uppercase;
-  letter-spacing:0.005em;
+  letter-spacing:0.025em;
   font-weight:400;
   margin:0;
 }
@@ -62,7 +62,7 @@ section{ position:relative; }
 .topbar .wrap{ display:flex; align-items:center; justify-content:space-between; height:76px; }
 .logo{ display:flex; align-items:center; gap:10px; text-decoration:none; }
 .logo-mark{ width:30px; height:30px; flex:none; }
-.logo-text{ font-family:'Anton',sans-serif; font-size:19px; letter-spacing:0.01em; text-transform:uppercase; line-height:1.05; }
+.logo-text{ font-family:'Anton',sans-serif; font-size:19px; letter-spacing:0.02em; text-transform:uppercase; line-height:1.05; }
 .logo-text span{ color:var(--amber); }
 nav.primary{ display:flex; align-items:center; gap:8px; }
 nav.primary > a{ text-decoration:none; font-size:13px; font-weight:600; color:var(--cream-dim); text-transform:uppercase; letter-spacing:0.07em; transition:color .15s ease; padding:10px 14px; }
@@ -92,7 +92,7 @@ nav.primary > a:hover, nav.primary > a[aria-current="page"]{ color:var(--cream);
   border-radius:3px; transition:background .15s ease;
 }
 .nav-dropdown a:hover, .nav-dropdown a:focus-visible{ background:var(--ink-3); }
-.nav-dropdown a .nd-title{ font-family:'Anton',sans-serif; font-size:13.5px; text-transform:uppercase; letter-spacing:0.01em; color:var(--cream); }
+.nav-dropdown a .nd-title{ font-family:'Anton',sans-serif; font-size:13.5px; text-transform:uppercase; letter-spacing:0.035em; color:var(--cream); }
 .nav-dropdown a .nd-desc{ font-family:'Work Sans',sans-serif; font-size:12px; color:var(--steel); }
 
 .topbar-right{ display:flex; align-items:center; gap:20px; }
@@ -171,7 +171,7 @@ nav.primary > a:hover, nav.primary > a[aria-current="page"]{ color:var(--cream);
 .service-card:hover{ background:var(--ink-3); }
 .service-num{ font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--amber-deep); }
 .service-icon{ width:44px; height:44px; }
-.service-card h3{ font-size:21px; margin-top:6px; letter-spacing:0.005em; color:var(--cream); }
+.service-card h3{ font-size:21px; margin-top:6px; letter-spacing:0.02em; color:var(--cream); }
 .service-card p{ font-size:14.5px; line-height:1.6; color:var(--cream-dim); margin:0; flex:1; }
 .service-card .tag-row{ display:flex; gap:8px; flex-wrap:wrap; margin-top:4px; }
 .tag{ font-family:'JetBrains Mono',monospace; font-size:10.5px; padding:4px 8px; border:1px solid var(--line); border-radius:2px; color:var(--steel); text-transform:uppercase; letter-spacing:0.03em; }
@@ -218,7 +218,7 @@ nav.primary > a:hover, nav.primary > a[aria-current="page"]{ color:var(--cream);
 .faq{ padding:100px 0; background:var(--ink-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
 .faq-list{ margin-top:48px; display:flex; flex-direction:column; gap:1px; background:var(--line); border:1px solid var(--line); }
 .faq-item{ background:var(--ink); padding:0; }
-.faq-item summary{ padding:24px 28px; cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px; font-family:'Anton',sans-serif; text-transform:uppercase; font-size:15.5px; letter-spacing:0.01em; color:var(--cream); }
+.faq-item summary{ padding:24px 28px; cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px; font-family:'Anton',sans-serif; text-transform:uppercase; font-size:15.5px; letter-spacing:0.025em; color:var(--cream); }
 .faq-item summary::-webkit-details-marker{ display:none; }
 .faq-item summary .plus{ flex:none; width:18px; height:18px; position:relative; }
 .faq-item summary .plus::before, .faq-item summary .plus::after{ content:''; position:absolute; background:var(--amber); }
@@ -233,7 +233,7 @@ nav.primary > a:hover, nav.primary > a[aria-current="page"]{ color:var(--cream);
 .related-card{ background:var(--ink-2); padding:26px 20px; text-decoration:none; transition:background .15s ease; }
 .related-card:hover{ background:var(--ink-3); }
 .related-card .rc-num{ font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--amber-deep); }
-.related-card h4{ font-family:'Anton',sans-serif; text-transform:uppercase; font-size:14.5px; margin-top:10px; color:var(--cream); letter-spacing:0.005em; }
+.related-card h4{ font-family:'Anton',sans-serif; text-transform:uppercase; font-size:14.5px; margin-top:10px; color:var(--cream); letter-spacing:0.04em; }
 
 /* ---------- TRIPTYCH ---------- */
 .triptych{ background:var(--ink-2); padding:120px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
