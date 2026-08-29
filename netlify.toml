@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "http://vanguardcarrierservices.com/*"
+  to = "https://www.vanguardcarrierservices.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://vanguardcarrierservices.com/*"
+  to = "https://www.vanguardcarrierservices.com/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
