@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.vanguardcarrierservices.com/sitemap.xml
+Sitemap: https://vanguardcarrierservices.com/sitemap.xml
