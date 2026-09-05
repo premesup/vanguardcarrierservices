@@ -1,8 +1,0 @@
-/assets/*
-  Cache-Control: public, max-age=2592000
-
-/*.html
-  Cache-Control: public, max-age=0, must-revalidate
-
-/
-  Cache-Control: public, max-age=0, must-revalidate
