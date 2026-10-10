@@ -29,6 +29,36 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+
+<!-- Homepage-only desktop hero fix. Kept here so replacing index.html is sufficient. -->
+<style>
+@media (min-width: 981px) {
+  .hero .wrap {
+    grid-template-columns: minmax(0, 1.24fr) minmax(0, .76fr);
+    gap: 38px;
+    align-items: center;
+  }
+  .hero .wrap > div:first-child { min-width: 0; }
+  .hero h1 {
+    font-size: clamp(34px, 3vw, 42px);
+    line-height: 1.13;
+    letter-spacing: -.035em;
+    max-width: none;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .hero p.lead {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 620px;
+    margin-top: 22px;
+  }
+  .hero-cta { margin-top: 26px; }
+  .hero-note { margin-top: 20px; }
+  .hero-photo { width: 100%; min-width: 0; }
+}
+</style>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
