@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#07131f"/>
+  <rect x="64" y="64" width="1072" height="502" rx="18" fill="#0d1c2a" stroke="#3da9fc" stroke-width="3"/>
+  <path d="M785 490H1075" stroke="#3da9fc" stroke-width="3" opacity=".55"/>
+  <path d="M852 490l88-139 69 77 103-165" fill="none" stroke="#f3eada" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1112" cy="263" r="15" fill="#3da9fc"/>
+  <text x="120" y="180" fill="#3da9fc" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="5">VANGUARD CARRIER SERVICES</text>
+  <text x="120" y="285" fill="#f3eada" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">24/7 CARRIER</text>
+  <text x="120" y="370" fill="#f3eada" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">SUPPORT</text>
+  <text x="120" y="470" fill="#aebdca" font-family="Arial, Helvetica, sans-serif" font-size="27">Dispatch · Breakdown · Safety · Recruiting · Compliance</text>
+  <text x="120" y="522" fill="#f3eada" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">347.989.4737</text>
+</svg>

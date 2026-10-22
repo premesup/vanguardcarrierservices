@@ -1,0 +1,9 @@
+Vanguard SEO update — October 2026
+
+Primary positioning: outsourced trucking dispatch and dedicated overnight/after-hours operations coverage, NOT load booking or freight rate negotiation.
+
+Updates: homepage, dispatch, scheduling, breakdown, outsourced operations, structured data, internal links; added services/overnight-dispatch.html and sitemap entry. Existing navigation/design, links and redirects retained.
+
+Deploy to GitHub as a complete set of site files. Verify the site after publishing, request indexing for /services/dispatch.html and /services/overnight-dispatch.html and resubmit sitemap.xml in Search Console.
+
+Note: SEO does not guarantee a particular query/ranking or exclude irrelevant Google impressions. Confirm all operational claims match actual services.
